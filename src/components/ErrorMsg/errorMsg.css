@@ -1,0 +1,9 @@
+.error_container {
+  margin: 0px auto;
+}
+.error_msg {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: rgba(255, 0, 0, 0.7);
+  text-align: center;
+  padding: 8px 16px;
+}
