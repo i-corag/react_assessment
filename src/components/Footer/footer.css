@@ -1,0 +1,19 @@
+footer {
+  height: 32px;
+  max-width: 1440px;
+  width: 100vw;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+footer p span {
+  font-size: 16px;
+}
