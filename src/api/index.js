@@ -52,7 +52,6 @@ const getInfinitePosts = async (page = 1, categoryId) => {
 };
 
 const createPost = async ({ formData }) => {
-  console.log('POST', formData);
   const response = await apiUrl({
     method: 'post',
     maxBodyLength: Infinity,

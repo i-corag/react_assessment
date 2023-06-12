@@ -1,0 +1,25 @@
+.navbar_link a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.active {
+  position: relative;
+}
+
+.active:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 2px;
+  width: 100%;
+  background: #e95e30;
+}
+
+.inactive {
+  position: relative;
+}
