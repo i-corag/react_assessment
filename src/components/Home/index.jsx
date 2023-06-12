@@ -1,8 +1,12 @@
-import React from 'react'
+import Form from '../Form'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <section className='home'>
+            <div className='form_container'>
+                <Form className='form' />
+            </div>
+        </section>
     )
 }
 
