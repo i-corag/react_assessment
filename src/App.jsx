@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Hearder';
-import Home from './components/Home';
-import PaginatedPosts from './components/PaginatedPosts';
+import Header from '../src/components/Header'
+import Home from '../src/components/Home';
+import Footer from '../src/components/Footer';
+import PaginatedPosts from '../src/components/PaginatedPosts';
 
 function App() {
 

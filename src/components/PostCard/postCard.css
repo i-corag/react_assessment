@@ -50,7 +50,6 @@
 
 .post_content {
   height: 76px;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 12px;
