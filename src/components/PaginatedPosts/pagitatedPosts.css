@@ -1,0 +1,33 @@
+.blog {
+  width: 90vw;
+  min-height: 100vh;
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.paginated_posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+
+.paginated_posts_filter {
+  height: 35px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 16px;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .blog {
+    width: 79vw;
+  }
+}
